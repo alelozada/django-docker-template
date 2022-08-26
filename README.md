@@ -1,4 +1,4 @@
-# Django Hello World
+# Django with Docker Template
 
 1. Install a virtual enviroment
     
@@ -26,6 +26,14 @@
 
     py app/manage.py startapp core
     
-7. You can start the server with the next command
+7. Created a dockerfile in the root and add the instructions, run:
+    
+    docker build .
 
-    py app/manage.py runserver
+8. Created a docker-compose.yaml file, run:
+    
+    docker-compose build
+
+9. Up Django with Docker, run:
+    
+    docker-compose up
