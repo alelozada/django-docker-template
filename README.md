@@ -22,9 +22,9 @@
 
     django-admin startproject app
     
-6. Install the core in the projects
+6. Install the core in the app folder <your path>\app>
 
-    py app/manage.py startapp core
+    py manage.py startapp core
     
 7. Created a dockerfile in the root and add the instructions, run:
     
